@@ -10,8 +10,8 @@ function zip(x, y) {
 }
 
 /*
- using items array of urls and titles,
- create a TSV string of url, title format
+using items array of urls and titles,
+create a TSV string of url, title format
 */
 function toTSV(items) {
 	var tsv = "";
