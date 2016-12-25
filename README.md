@@ -4,7 +4,7 @@ This script allows you to extract your browser tabs programmatically (**Chrome o
 # usage
 Go to chrome://history/syncedTabs or chrome://inspect/#pages and paste [extract-tabs.js](extract-tabs.js) in the console.
 
-If you want to back up your synced tabs, paste one of the following two lines into your console:
+If you want to back up your synced tabs from a different device, paste one of the following two lines into your console:
 - `extractTabsOther()["tsv"]`
 - `extractTabsOther()["raw"]`
 
