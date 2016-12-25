@@ -13,5 +13,5 @@ If you want to back up the tabs on your current device's browser, paste one of t
 - `extractTabsMe()["raw"]`
 
 N.b.
-`tsv` is a string of tab-separated url and title.
 `raw` is a temporally sorted array with JSON of {url: url, title: title}.
+`tsv` is a TSV version of `raw`
