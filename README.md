@@ -1,5 +1,5 @@
 # extract-tabs.js
-This script allows you to extract your tabs programmatically (**Chrome only**).
+This script allows you to extract your browser tabs programmatically (**Chrome only**).
 
 # usage
 Go to chrome://history/syncedTabs or chrome://inspect/#pages and paste [extract-tabs.js](extract-tabs.js) in the console.
