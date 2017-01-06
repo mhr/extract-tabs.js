@@ -56,6 +56,12 @@ function extractTabsMe() {
     return {"tsv": toTSV(items), "raw": items}
 }
 
-function copy(obj) {
-    window.prompt("Copy to clipboard.", obj["tsv"]);
+// http://stackoverflow.com/a/33946647/1024501
+function copy(text) {
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.setAttribute("id", "dummy_id");
+    document.getElementById("dummy_id").value = text;
+    dummy.select();
+    console.log(document.execCommand("copy"));
 }
