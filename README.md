@@ -15,3 +15,6 @@ If you want to back up the tabs on your current device's browser, paste one of t
 N.b.
 `raw` is a temporally sorted array with JSON of {url: url, title: title}.
 `tsv` is a TSV version of `raw`
+
+# exporting the result
+call `copy(result)` with the result of one of the extract functions.
