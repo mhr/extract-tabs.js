@@ -55,3 +55,7 @@ function extractTabsMe() {
     }
     return {"tsv": toTSV(items), "raw": items}
 }
+
+function copy(obj) {
+    window.prompt("Copy to clipboard.", obj["tsv"]);
+}
